@@ -2,7 +2,7 @@
 
 This is the main repository for [JesusCaDev.com](https://jesuscadev.com "JesusCaDev.com") website code.
 
-It's made with HTML and CSS.
+It's made with JavaScript, HTML and CSS.
 
 <!--
 **jesuscadev/jesuscadev** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
