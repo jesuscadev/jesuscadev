@@ -136,7 +136,7 @@
 		"work_exp_ba_03": "Desarrollé y liberé la primera versión del proyecto <em>&#8220;Apertura de Cuentas&#8221;</em> para el producto <em>&#8220;Guardadito Procampo&#8221;</em> en todas las sucursales de México.",
 		"work_exp_pt_summary": "Liderar proyectos, desarrollo y certificación de aplicaciones Terminal Punto de Venta (<em>POS: Point of Sale</em>).",
 		"work_exp_pt_01": "Desarrollé los proyectos <em>&#8220;Ethernet&#8221;</em> y <em>&#8220;Hotel&#8221;</em> en C++ para VisaNet Guatemala.",
-		"work_exp_pt_02": "Desarrollé las aplicaciones <em>&#8220;Retail&#8221;</em> and <em>&#8220;Restaurant&#8221;</em> en C++ y Lenguaje Ensamblador, para las terminales punto de venta Cybernet Jade y JadeAIRE (eAppliance y CyberSoft). Obtuve las certificaciones tanto técnicas como operativas de Promoción y Operación S.A. (PROSA).",
+		"work_exp_pt_02": "Desarrollé las aplicaciones <em>&#8220;Retail&#8221;</em> y <em>&#8220;Restaurant&#8221;</em> en C++ y Lenguaje Ensamblador, para las terminales punto de venta Cybernet Jade y JadeAIRE (eAppliance y CyberSoft). Obtuve las certificaciones tanto técnicas como operativas de Promoción y Operación S.A. (PROSA).",
 		"work_exp_pt_03": "Desarrollé los sistemas <em>&#8220;PointTeleCarga&#8221;</em> y <em>&#8220;LatinPoint&#8221;</em> en C++ y Lenguaje Ensamblador, para inicialización y notificación de terminales vía modem en PROSA.",
 		"work_exp_ag_summary": "Desarrollo y análisis de un Almacén de Datos para seguros, una aplicación de logística para tráileres y una aplicación de restaurante.",
 		"work_exp_ag_01": "Desarrollé <em>&#8220;Estadísticas Vida&#8221;</em>, un Almacén de Datos SQL Server para explotación estadística integrando detalles de los contratos de seguros provenientes de diversas fuentes en <u>Seguros Bancomer</u>.",
@@ -269,8 +269,8 @@
 		"sw_dpf_ex_14": "Esta es la implementación Java de <code>DelimitedTextFilePublisher</code>. Contiene las anotaciones necesarias para utilizar JAXB: <code>@XmlRootElement</code>, <code>@XmlAttribute</code> y <code>@XmlElement</code>:",
 		"sw_dpf_ex_14_01": "Implementación Java de DelimitedTextFilePublisher",
 
-		"sw_pay_ov_01": "?",
-		"sw_pay_mt_01": "?",
+		"sw_pay_ov_01": "Desarrollé en C++ y Lenguaje Ensamblador las aplicaciones <em>&#8220;Retail&#8221;</em> y <em>&#8220;Restaurant&#8221;</em>, para las terminales punto de venta de las marcas Cybernet y Sagem Monetel. Las aplicaciones recibieron certificaciones técnicas y operativas por parte de PROSA y Bancomer.",
+		"sw_pay_mt_01": "Desarrollé en C++ y Lenguaje Ensamblador las aplicaciones <em>&#8220;Retail&#8221;</em> y <em>&#8220;Restaurant&#8221;</em>, para las terminales punto de venta Cybernet Jade y JadeAIRE (eAppliance y CyberSoft). Obtuve las certificaciones tanto técnicas como operativas de Promoción y Operación S.A. (PROSA). Desarrollé y obtuve las certificaciones por parte de PROSA y Bancomer para las aplicaciones <em>&#8220;Retail&#8221;</em> y <em>&#8220;Restaurant&#8221;</em> (C++), lo que dio un impulso a las ventas de equipos POS de Sagem Monetel (terminales Sagem Monetel EFT930, EFT930G, EFT930S &amp; EFTsmart terminals) en México.",
 		"sw_pay_ex_01": "?",
 		
 		"sw_caj_ov_01": "Diseñé e implementé en C, C++ y Lenguaje Ensamblador un sistema de caja registradora para la estación de trabajo punto de venta NCR 7445.",
