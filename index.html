@@ -129,9 +129,6 @@
 					<a class="jumper_nav" href="#sw_caj_header" id="sw_caj_id" lang="en" data-lang-token="nav_caj"></a>
 				</li>
 				<li>
-					<a class="jumper_nav" href="#sw_chi_header" id="sw_chi_id" lang="en" data-lang-token="nav_chi"></a>
-				</li>
-				<li>
 					<a class="jumper_nav" href="#sw_par_header" id="sw_par_id" lang="en" data-lang-token="nav_flo"></a>
 				</li>
 				<li>
@@ -1407,39 +1404,6 @@ public class DelimitedTextFilePublisher implements Publisher {
 					</div>
 					<br>
 
-					<br id="sw_chi_header">
-					<div class="project-entry">
-						<div class="title-entry">
-							<h2 lang="en" data-lang-token="head_chi"></h2>
-						</div>
-						<br>
-						<div id="sw_chi_overview" style="margin:0; padding: 0;">
-							<p><b lang="en">Overview:</b></p>
-							<p lang="en" data-lang-token="sw_chi_ov_01"></p>
-						</div>
-						<br>
-						<div id="sw_chi_more" style="margin:0; padding: 0; display: none;">
-							<p><b lang="en">The motive:</b></p>
-							<p lang="en" data-lang-token="sw_chi_mt_01"></p>
-							<br>
-							<p><b lang="en">The execution:</b></p>
-							<p lang="en" data-lang-token="sw_chi_ex_01"></p>
-							<br>
-						</div>
-						<div id="sw_chi_tools" style="margin:0; padding: 0;">
-							<p><b lang="en">Utilized:</b></p>
-							<p>TOOLS</p>
-						</div>
-						<br>
-						<div id="sw_chi_less_option" style="margin:0; padding: 0; display: none;">
-							<p><a style="font-size: 120%;" id="sw_chi_less_click" lang="en"> Less details... </a></p>
-						</div>
-						<div id="sw_chi_more_option">
-							<p><a style="font-size: 120%;" id="sw_chi_more_click" lang="en"> More details... </a></p>
-						</div>
-					</div>
-					<br>
-
 					<br id="sw_par_header">
 					<div class="project-entry">
 						<div class="title-entry">
@@ -1520,6 +1484,25 @@ public class DelimitedTextFilePublisher implements Publisher {
 						<div id="sw_mex_more" style="margin:0; padding: 0; display: none;">
 							<p><b lang="en">The motive:</b></p>
 							<p lang="en" data-lang-token="sw_mex_mt_01"></p>
+							
+							<img style="vertical-align:middle;" src="images/sw-mex-pc-xt.png" width="30%" align=right>
+							<div style='vertical-align:middle; display:inline;'>
+								<p lang="en" data-lang-token="sw_mex_mt_01"></p>
+								<p lang="en" data-lang-token="sw_mex_mt_02"></p>
+							</div>
+							
+							<table>
+								<!--tr>
+									<th lang="en">Type</th>
+									<th lang="en">Class</th>
+									<th lang="en">Functionality</th>
+								</tr-->
+								<tr>
+									<td lang="en" data-lang-token="sw_mex_mt_01"></td>
+									<th><img src="images/sw-mex-pc-xt.png" width="100%"></th>
+								</tr>
+							</table>
+							<br>
 							<div class="image_center_wrapper">
 								<img src="images/sw-mex-map1_4.gif"
 										id="single_main_page_images" alt="sw-mex-map"
@@ -1800,22 +1783,6 @@ public class DelimitedTextFilePublisher implements Publisher {
 					}, 600);
 				})
 
-				// CuentaChiles
-				$("#sw_chi_more_click").on('click', function (e) {
-					$("#sw_chi_more_option").hide();
-					$("#sw_chi_more").show();
-					$("#sw_chi_less_option").show();
-				})
-				$("#sw_chi_less_click").on('click', function (e) {
-					$("#sw_chi_more").hide();
-					$("#sw_chi_less_option").hide();
-					$("#sw_chi_more_option").show();
-
-					$("body, html").animate({
-						scrollTop: $($("#sw_chi_id").attr('href')).offset().top - $(".navbar-header").height()
-					}, 600);
-				})
-
 				// Floating Events iOS App
 				$("#sw_par_more_click").on('click', function (e) {
 					$("#sw_par_more_option").hide();
@@ -2002,9 +1969,6 @@ public class DelimitedTextFilePublisher implements Publisher {
 					var sw_caj_distance = $('#sw_caj_header').offset().top;
 					var sw_caj_disp_val = $('#sw_caj_header').css("display");
 
-					var sw_chi_distance = $('#sw_chi_header').offset().top;
-					var sw_chi_disp_val = $('#sw_chi_header').css("display");
-
 					var sw_par_distance = $('#sw_par_header').offset().top;
 					var sw_par_disp_val = $('#sw_par_header').css("display");
 
@@ -2061,12 +2025,8 @@ public class DelimitedTextFilePublisher implements Publisher {
 						document.getElementById('sw_pay_id').focus();
 					}
 
-					if ((y_scroll_position >= sw_caj_distance) && (y_scroll_position < sw_chi_distance) && (sw_caj_disp_val != "none")) {
+					if ((y_scroll_position >= sw_caj_distance) && (y_scroll_position < sw_par_distance) && (sw_caj_disp_val != "none")) {
 						document.getElementById('sw_caj_id').focus();
-					}
-
-					if ((y_scroll_position >= sw_chi_distance) && (y_scroll_position < sw_par_distance) && (sw_chi_disp_val != "none")) {
-						document.getElementById('sw_chi_id').focus();
 					}
 
 					if ((y_scroll_position >= sw_par_distance) && (y_scroll_position < sw_rol_distance) && (sw_par_disp_val != "none")) {
