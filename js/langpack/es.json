@@ -381,6 +381,8 @@
 		"sw_rol_mt_01": "?",
 		"sw-rol-screen-01": "images/sw-rol-screen-01-sp.jpg",
 		"sw_rol_ex_01": "?",
+		"Parachute": "Paracaídas",
+		"Roller Coaster": "Montaña Rusa",
 		"sw_jkd_ov_01": "Desarrollé esta página web en JavaScript, HTML y CSS.",
 		"sw_jkd_mt_01": "Con este sitio web quiero ir más allá de los límites de un currículum para mostrar los proyectos que han tenido un significado especial en mi labor de Ingeniero de Software.",
 		"sw_jkd_ex_01": "Utilicé Bootstrap para implementar la barra lateral del menú. JavaScript para los efectos de texto dinámico. JQuery-Lang-js para implementar la capacidad multilenguaje del sitio. Highlight.js para dar formato a los listados de código fuente.",
