@@ -45,6 +45,8 @@
 		"edu_degree": "Degree Exam <br />Certificate",
 		"edu_certificate": "Certificate",
 		"edu_bachelor": "<br>Thesis: <em>&ldquo;Methodology for Project Management and Systems Development&rdquo;</em>.<br><br>",
+		"work_exp_sl_summary": "Java Software Engineer.",
+		"work_exp_sl_01": "Java development.",
 		"work_exp_pd_summary": "Project lead, development and certification of POS applications.",
 		"work_exp_pd_01": "Developed and obtained certifications for <em>&ldquo;Retail&rdquo;</em> and <em>&ldquo;Restaurant&rdquo;</em> C++ applications, from PROSA and Bancomer, giving a boost to sales of Sagem Monetel POS equipment (Sagem Monetel EFT930, EFT930G, EFT930S &amp; EFTsmart terminals) in Mexico.",
 		"work_exp_pd_02": "Developed and obtained certifications for <em>&ldquo;PointPayTMS&rdquo;</em> and <em>&ldquo;PointPayTC&rdquo;</em> C++/Assembly systems for initialization and notification of terminals via modem in PROSA.",

@@ -111,6 +111,8 @@
 		"Programmer Analyst / Project Leader": "Analista Programador / Líder de Proyecto",
 		"Programmer Analyst": "Analista Programador",
 		"Software Engineer": "Ingeniero de Software",
+		"work_exp_sl_summary": "Java Software Engineer.",
+		"work_exp_sl_01": "Java development.",
 		"work_exp_pd_summary": "Liderar proyectos, desarrollo y certificación de aplicaciones Terminal Punto de Venta (<em>POS: Point of Sale</em>).",
 		"work_exp_pd_01": "Desarrollé y obtuve las certificaciones por parte de PROSA y Bancomer para las aplicaciones <em>&ldquo;Retail&rdquo;</em> y <em>&ldquo;Restaurant&rdquo;</em> (C++), lo que dio un impulso a las ventas de equipos POS de Sagem Monetel (terminales Sagem Monetel EFT930, EFT930G, EFT930S &amp; EFTsmart terminals) en México.",
 		"work_exp_pd_02": "Desarrollé y obtuve las certificaciones por parte de PROSA para los sistemas <em>&ldquo;PointPayTMS&rdquo;</em> y <em>&ldquo;PointPayTC&rdquo;</em> (C++/Ensamblador) para inicialización y notificación de terminales vía modem.",
