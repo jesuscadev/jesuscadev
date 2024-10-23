@@ -78,12 +78,16 @@
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
 					<li><a class="jumper_nav" href="#profile_header" id="profile" lang="en">Profile</a></li>
-					<li><a class="jumper_nav" href="#tech_skills_header" id="tech_skills" lang="en">Technical Skills</a></li>
-					<li><a class="jumper_nav" href="#pers_skills_header" id="pers_skills" lang="en">Personal Skills</a></li>
+					<li><a class="jumper_nav" href="#tech_skills_header" id="tech_skills" lang="en">Technical Skills</a>
+					</li>
+					<li><a class="jumper_nav" href="#pers_skills_header" id="pers_skills" lang="en">Personal Skills</a>
+					</li>
 					<li><a class="jumper_nav" href="#education_header" id="education" lang="en">Education</a></li>
 					<li><a class="jumper_nav" href="#work_exp_header" id="work_exp" lang="en">Work Experience</a></li>
-					<li><a class="jumper_nav" href="#sw_projects_header" id="sw_projects" lang="en">Software Projects</a></li>
-					<li><a class="jumper_nav" href="#theapartment_header" id="theapartment" lang="en">The Apartment</a></li>
+					<li><a class="jumper_nav" href="#sw_projects_header" id="sw_projects" lang="en">Software
+							Projects</a></li>
+					<li><a class="jumper_nav" href="#theapartment_header" id="theapartment" lang="en">The Apartment</a>
+					</li>
 				</ul>
 			</div><!-- /.navbar-collapse -->
 		</div><!-- /.container-fluid -->
@@ -163,8 +167,10 @@
 			<br>
 			<div class="container-fluid">
 				<div id="langChanger">
-					<a href="#" onclick="window.lang.change('en'); return false;" lang="en" data-lang-token="lang_english"></a>
-					<a href="#" onclick="window.lang.change('es'); return false;" lang="en" data-lang-token="lang_spanish"></a>
+					<a href="#" onclick="window.lang.change('en'); return false;" lang="en"
+						data-lang-token="lang_english"></a>
+					<a href="#" onclick="window.lang.change('es'); return false;" lang="en"
+						data-lang-token="lang_spanish"></a>
 				</div>
 
 				<!-- picture div-->
@@ -181,7 +187,8 @@
 
 				<!-- introduction header-->
 				<div class="row" id="bio_header">
-					<h1 lang="en" data-lang-token="bioName" class="text-center" style="color:#1A5276; font-size: 400%"></h1>
+					<h1 lang="en" data-lang-token="bioName" class="text-center" style="color:#1A5276; font-size: 400%">
+					</h1>
 					<h4 class="text-center">
 						<b>
 							<span style="color:#7F1E57">IPN</span>
@@ -219,7 +226,7 @@
 				</div>
 
 				<!-- about div-->
-				<div class="row" id="about_exp_header">
+				<div class="work-entry" id="about_exp_header">
 					<div id="gray">
 						<h1 class="text-center" style="color:#2471A3" lang="en" data-lang-token="head_about"></h1>
 						<br>
@@ -250,12 +257,13 @@
 				</div>
 
 				<!-- tech_skills header div-->
-				<div class="row" id="tech_skills_header">
+				<div class="project-entry" id="tech_skills_header">
 					<br>
 					<h1 class="text-center" style="color:#2471A3" lang="en" data-lang-token="head_tech_skills"></h1>
 					<br>
 					<!-- tech_skills list div-->
-					<div class="row" id="tech_skills_list">
+					<div class="row" id="tech_skills_list"
+						style="margin-left:auto; margin-right:auto; max-width: 90%; text-align: left;">
 						<div class="col-sm-4">
 							<h3 style="color:#707B7C" lang="en"> Experienced </h3>
 							<h4 style="color:#99A3A4" lang="en"> Client-server </h4>
@@ -399,12 +407,13 @@
 				</div>
 
 				<!-- pers_skills header div-->
-				<div class="row" id="pers_skills_header">
+				<div class="project-entry" id="pers_skills_header">
 					<div id="gray">
 						<br>
 						<h1 class="text-center" style="color:#2471A3" lang="en" data-lang-token="head_pers_skills"></h1>
 						<br>
-						<div class="row" id="pers_skills_list">
+						<div class="row" id="pers_skills_list"
+							style="margin-left:auto; margin-right:auto; max-width: 90%; text-align: left;">
 							<div class="col-sm-4">
 								<h3 style="color:#707B7C" lang="en"> Design </h3>
 								<h4 style="color:#99A3A4" lang="en"> Text composition </h4>
@@ -452,303 +461,346 @@
 				</div>
 
 				<!-- education list div-->
-				<div class="row" id="education_header">
+				<div class="work-entry" id="education_header">
 					<br>
 					<h1 class="text-center" style="color:#2471A3" lang="en" data-lang-token="head_education"></h1>
 					<br>
 
-					<div class="work-entry">
+					<div class="row" style="margin-left:auto; margin-right:auto; max-width: 90%; text-align: left;">
 						<div class="title-entry">
 							<h2 lang="en" data-lang-token="bioCareer"></h2>
 							<h3>Instituto Politécnico Nacional &#8226; UPIICSA</h3>
 						</div>
 						<div class="date-text">2013-2016</div>
-						<p style="margin:0; padding: 0" lang="en" data-lang-token="edu_master"></p>
-						<div class="row">
-							<div class="column1">
-								<a href="images/master-diploma-large.jpg"><img src="images/master-diploma.jpg" alt="Diploma"></a>
-								<br /><strong lang="en" data-lang-token="edu_diploma"></strong>
+						<div id="edu_master_more" style="margin:0; padding: 0; display: none;">
+							<p style="margin:0; padding: 0" lang="en" data-lang-token="edu_master"></p>
+							<div class="row">
+								<div class="column1">
+									<a href="images/master-diploma-large.jpg"><img src="images/master-diploma.jpg"
+											alt="Diploma"></a>
+									<br /><strong lang="en" data-lang-token="edu_diploma"></strong>
+								</div>
 							</div>
-						</div>
-						<br>
-						<div class="row">
-							<div class="column2">
-								<a href="pdf/master-thesis.pdf"><img src="images/master-thesis.jpg" alt="Thesis"></a>
-								<br /><strong lang="en" data-lang-token="edu_thesis_doc"></strong>
+							<br>
+							<div class="row">
+								<div class="column2">
+									<a href="pdf/master-thesis.pdf"><img src="images/master-thesis.jpg"
+											alt="Thesis"></a>
+									<br /><strong lang="en" data-lang-token="edu_thesis_doc"></strong>
+								</div>
+								<div class="column2">
+									<a href="images/master-license-large.jpg"><img src="images/master-license.jpg"
+											alt="Professional License"></a>
+									<br /><strong lang="en" data-lang-token="edu_license"></strong>
+								</div>
 							</div>
-							<div class="column2">
-								<a href="images/master-license-large.jpg"><img src="images/master-license.jpg"
-										alt="Professional License"></a>
-								<br /><strong lang="en" data-lang-token="edu_license"></strong>
-							</div>
-						</div>
-						<br />
-						<div class="row">
-							<div class="column2">
-								<a href="images/master-exam-large.jpg"><img src="images/master-exam.jpg"
-										alt="Degree Exam Certificate"></a>
-								<br /><strong lang="en" data-lang-token="edu_degree"></strong>
-							</div>
-							<div class="column2">
-								<a href="images/master-certificate-large.jpg"><img src="images/master-certificate.jpg"
-										alt="Certificate"></a>
-								<br /><strong lang="en" data-lang-token="edu_certificate"></strong>
+							<br />
+							<div class="row">
+								<div class="column2">
+									<a href="images/master-exam-large.jpg"><img src="images/master-exam.jpg"
+											alt="Degree Exam Certificate"></a>
+									<br /><strong lang="en" data-lang-token="edu_degree"></strong>
+								</div>
+								<div class="column2">
+									<a href="images/master-certificate-large.jpg"><img
+											src="images/master-certificate.jpg" alt="Certificate"></a>
+									<br /><strong lang="en" data-lang-token="edu_certificate"></strong>
+								</div>
 							</div>
 						</div>
 						<br>
 					</div>
 					<br>
 
-					<div class="work-entry">
+					<div class="row" style="margin-left:auto; margin-right:auto; max-width: 90%; text-align: left;">
 						<div class="title-entry">
 							<h2 lang="en" data-lang-token="bioCareer0"></h2>
 							<h3>Instituto Politécnico Nacional • UPIICSA</h3>
 						</div>
 						<div class="date-text">1990-1994</div>
-						<p style="margin:0; padding: 0" lang="en" data-lang-token="edu_bachelor"></p>
-						<div class="row">
-							<div class="column1">
-								<a href="images/bachelor-diploma-large.jpg"><img src="images/bachelor-diploma.jpg" alt="Diploma"></a>
-								<br /><strong lang="en" data-lang-token="edu_diploma"></strong>
+						<div id="edu_bachelor_more" style="margin:0; padding: 0; display: none;">
+							<p style="margin:0; padding: 0" lang="en" data-lang-token="edu_bachelor"></p>
+							<div class="row">
+								<div class="column1">
+									<a href="images/bachelor-diploma-large.jpg"><img src="images/bachelor-diploma.jpg"
+											alt="Diploma"></a>
+									<br /><strong lang="en" data-lang-token="edu_diploma"></strong>
+								</div>
 							</div>
 						</div>
 						<br>
 					</div>
+					<br>
+					<div class="row" style="margin-left:auto; margin-right:auto; max-width: 90%; text-align: left;">
+						<div id="edu_less_option" style="margin:0; padding: 0; display: none;">
+							<p><a style="font-size: 120%;" id="edu_less_click" lang="en"> Less details... </a></p>
+						</div>
+						<div id="edu_more_option">
+							<p><a style="font-size: 120%;" id="edu_more_click" lang="en"> More details... </a></p>
+						</div>
+					</div>
 				</div>
 
+
 				<!-- work list div-->
-				<div class="row" id="work_exp_header">
+				<div class="work-entry" id="work_exp_header">
 					<div id="gray">
 						<br>
 						<h1 class="text-center" style="color:#2471A3" lang="en" data-lang-token="head_work_exp"></h1>
 						<br>
 
-						<div class="work-entry">
+						<div class="row" style="margin-left:auto; margin-right:auto; max-width: 90%; text-align: left;">
 							<div class="title-entry">
 								<h2 lang="en">Software Engineer</h2>
 								<h3>Swisslog</h3>
 							</div>
 							<div class="date-text">Nov 2021 - Actual</div>
 							<br>
-							<p style="margin:0; padding: 0" lang="en" data-lang-token="work_exp_sl_summary"></p>
-							<br>
-							<ul>
-								<li lang="en" data-lang-token="work_exp_sl_01"></li>
-							</ul>
+							<div id="work_exp_sl_more" style="margin:0; padding: 0; display: none;">
+								<p style="margin:0; padding: 0" lang="en" data-lang-token="work_exp_sl_summary"></p>
+								<br>
+								<ul>
+									<li lang="en" data-lang-token="work_exp_sl_01"></li>
+								</ul>
+							</div>
 						</div>
 						<br>
-						<br>
 
-						<div class="work-entry">
+						<div class="row" style="margin-left:auto; margin-right:auto; max-width: 90%; text-align: left;">
 							<div class="title-entry">
 								<h2 lang="en">Software Engineer</h2>
 								<h3>POS Dev (Freelance)</h3>
 							</div>
 							<div class="date-text">Jun 2021 - Nov 2021</div>
 							<br>
-							<p style="margin:0; padding: 0" lang="en" data-lang-token="work_exp_pd_summary"></p>
-							<br>
-							<ul>
-								<li lang="en" data-lang-token="work_exp_pd_01"></li>
-								<li lang="en" data-lang-token="work_exp_pd_02"></li>
-								<li lang="en" data-lang-token="work_exp_pd_03"></li>
-								<li lang="en" data-lang-token="work_exp_pd_04"></li>
-							</ul>
+							<div id="work_exp_pd_more" style="margin:0; padding: 0; display: none;">
+								<p style="margin:0; padding: 0" lang="en" data-lang-token="work_exp_pd_summary"></p>
+								<br>
+								<ul>
+									<li lang="en" data-lang-token="work_exp_pd_01"></li>
+									<li lang="en" data-lang-token="work_exp_pd_02"></li>
+									<li lang="en" data-lang-token="work_exp_pd_03"></li>
+									<li lang="en" data-lang-token="work_exp_pd_04"></li>
+								</ul>
+							</div>
 						</div>
 						<br>
-						<br>
 
-						<div class="work-entry">
+						<div class="row" style="margin-left:auto; margin-right:auto; max-width: 90%; text-align: left;">
 							<div class="title-entry">
 								<h2 lang="en">Software Engineer &amp; Analyst</h2>
 								<h3>Credit Suisse</h3>
 							</div>
 							<div class="date-text">Dec 2007 - Dec 2020</div>
 							<br>
-							<p style="margin:0; padding: 0" lang="en" data-lang-token="work_exp_cs_summary"></p>
-							<br>
-							<ul>
-								<li lang="en" data-lang-token="work_exp_cs_01"></li>
-								<li lang="en" data-lang-token="work_exp_cs_02"></li>
-								<li lang="en" data-lang-token="work_exp_cs_03"></li>
-								<li lang="en" data-lang-token="work_exp_cs_04"></li>
-								<li lang="en" data-lang-token="work_exp_cs_05"></li>
-								<li lang="en" data-lang-token="work_exp_cs_06"></li>
-								<li lang="en" data-lang-token="work_exp_cs_07"></li>
-								<li lang="en" data-lang-token="work_exp_cs_08"></li>
-							</ul>
+							<div id="work_exp_cs_more" style="margin:0; padding: 0; display: none;">
+								<p style="margin:0; padding: 0" lang="en" data-lang-token="work_exp_cs_summary"></p>
+								<br>
+								<ul>
+									<li lang="en" data-lang-token="work_exp_cs_01"></li>
+									<li lang="en" data-lang-token="work_exp_cs_02"></li>
+									<li lang="en" data-lang-token="work_exp_cs_03"></li>
+									<li lang="en" data-lang-token="work_exp_cs_04"></li>
+									<li lang="en" data-lang-token="work_exp_cs_05"></li>
+									<li lang="en" data-lang-token="work_exp_cs_06"></li>
+									<li lang="en" data-lang-token="work_exp_cs_07"></li>
+									<li lang="en" data-lang-token="work_exp_cs_08"></li>
+								</ul>
+							</div>
 						</div>
-						<br>
 						<br>
 
-						<div class="work-entry">
-							<div class="title-entry">
-								<h2 lang="en">Software Engineer</h2>
-								<h3>PointPay International Inc.</h3>
+						<div id="work_exp_old_more" style="margin:0; padding: 0; display: none;">
+							<div class="row" style="margin-left:auto; margin-right:auto; max-width: 90%; text-align: left;">
+								<div class="title-entry">
+									<h2 lang="en">Software Engineer</h2>
+									<h3>PointPay International Inc.</h3>
+								</div>
+								<div class="date-text">May 2006 - Dec 2007</div>
+								<br>
+								<div id="work_exp_pp_more" style="margin:0; padding: 0; display: none;">
+									<p style="margin:0; padding: 0" lang="en" data-lang-token="work_exp_pp_summary"></p>
+									<br>
+									<ul>
+										<li lang="en" data-lang-token="work_exp_pp_01"></li>
+										<li lang="en" data-lang-token="work_exp_pp_02"></li>
+										<li lang="en" data-lang-token="work_exp_pp_03"></li>
+									</ul>
+								</div>
 							</div>
-							<div class="date-text">May 2006 - Dec 2007</div>
 							<br>
-							<p style="margin:0; padding: 0" lang="en" data-lang-token="work_exp_pp_summary"></p>
+	
+							<div class="row" style="margin-left:auto; margin-right:auto; max-width: 90%; text-align: left;">
+								<div class="title-entry">
+									<h2 lang="en">Software Engineer &amp; Project Leader</h2>
+									<h3>Banco Azteca</h3>
+								</div>
+								<div class="date-text">Jun 2004 - Apr 2006</div>
+								<br>
+								<div id="work_exp_ba_more" style="margin:0; padding: 0; display: none;">
+									<p style="margin:0; padding: 0" lang="en" data-lang-token="work_exp_ba_summary"></p>
+									<br>
+									<ul>
+										<li lang="en" data-lang-token="work_exp_ba_01"></li>
+										<li lang="en" data-lang-token="work_exp_ba_02"></li>
+										<li lang="en" data-lang-token="work_exp_ba_03"></li>
+									</ul>
+								</div>
+							</div>
 							<br>
-							<ul>
-								<li lang="en" data-lang-token="work_exp_pp_01"></li>
-								<li lang="en" data-lang-token="work_exp_pp_02"></li>
-								<li lang="en" data-lang-token="work_exp_pp_03"></li>
-							</ul>
-						</div>
-						<br>
-						<br>
+	
+							<div class="row" style="margin-left:auto; margin-right:auto; max-width: 90%; text-align: left;">
+								<div class="title-entry">
+									<h2 lang="en">Software Engineer</h2>
+									<h3>Point Transaction Systems de México</h3>
+								</div>
+								<div class="date-text">Dec 2001 - Jul 2004</div>
+								<br>
+								<div id="work_exp_pt_more" style="margin:0; padding: 0; display: none;">
+									<p style="margin:0; padding: 0" lang="en" data-lang-token="work_exp_pt_summary"></p>
+									<br>
+									<ul>
+										<li lang="en" data-lang-token="work_exp_pt_01"></li>
+										<li lang="en" data-lang-token="work_exp_pt_02"></li>
+										<li lang="en" data-lang-token="work_exp_pt_03"></li>
+									</ul>
+								</div>
+							</div>
+							<br>
 
-						<div class="work-entry">
-							<div class="title-entry">
-								<h2 lang="en">Software Engineer &amp; Project Leader</h2>
-								<h3>Banco Azteca</h3>
+							<div class="row" style="margin-left:auto; margin-right:auto; max-width: 90%; text-align: left;">
+								<div class="title-entry">
+									<h2 lang="en">Senior Analyst</h2>
+									<h3>Air-Go Technologies</h3>
+								</div>
+								<div class="date-text">2000 - 2001</div>
+								<br>
+								<div id="work_exp_ag_more" style="margin:0; padding: 0; display: none;">
+									<p style="margin:0; padding: 0" lang="en" data-lang-token="work_exp_ag_summary"></p>
+									<br>
+									<ul>
+										<li lang="en" data-lang-token="work_exp_ag_01"></li>
+										<li lang="en" data-lang-token="work_exp_ag_02"></li>
+										<li lang="en" data-lang-token="work_exp_ag_03"></li>
+									</ul>
+								</div>
 							</div>
-							<div class="date-text">Jun 2004 - Apr 2006</div>
 							<br>
-							<p style="margin:0; padding: 0" lang="en" data-lang-token="work_exp_ba_summary"></p>
-							<br>
-							<ul>
-								<li lang="en" data-lang-token="work_exp_ba_01"></li>
-								<li lang="en" data-lang-token="work_exp_ba_02"></li>
-								<li lang="en" data-lang-token="work_exp_ba_03"></li>
-							</ul>
-						</div>
-						<br>
-						<br>
 
-						<div class="work-entry">
-							<div class="title-entry">
-								<h2 lang="en">Software Engineer</h2>
-								<h3>Point Transaction Systems de México</h3>
+							<div class="row" style="margin-left:auto; margin-right:auto; max-width: 90%; text-align: left;">
+								<div class="title-entry">
+									<h2 lang="en">Programmer Analyst / Project Leader</h2>
+									<h3>Interóptima</h3>
+								</div>
+								<div class="date-text">2000</div>
+								<br>
+								<div id="work_exp_io_more" style="margin:0; padding: 0; display: none;">
+									<p style="margin:0; padding: 0" lang="en" data-lang-token="work_exp_io_summary"></p>
+									<br>
+									<ul>
+										<li lang="en" data-lang-token="work_exp_io_01"></li>
+									</ul>
+								</div>
 							</div>
-							<div class="date-text">Dec 2001 - Jul 2004</div>
 							<br>
-							<p style="margin:0; padding: 0" lang="en" data-lang-token="work_exp_pt_summary"></p>
-							<br>
-							<ul>
-								<li lang="en" data-lang-token="work_exp_pt_01"></li>
-								<li lang="en" data-lang-token="work_exp_pt_02"></li>
-								<li lang="en" data-lang-token="work_exp_pt_03"></li>
-							</ul>
-						</div>
-						<br>
-						<br>
 
-						<div class="work-entry">
-							<div class="title-entry">
-								<h2 lang="en">Senior Analyst</h2>
-								<h3>Air-Go Technologies</h3>
+							<div class="row" style="margin-left:auto; margin-right:auto; max-width: 90%; text-align: left;">
+								<div class="title-entry">
+									<h2 lang="en">Software Engineer</h2>
+									<h3>3Soft</h3>
+								</div>
+								<div class="date-text">2000</div>
+								<br>
+								<div id="work_exp_3s_more" style="margin:0; padding: 0; display: none;">
+									<p style="margin:0; padding: 0" lang="en" data-lang-token="work_exp_3s_summary"></p>
+									<br>
+									<ul>
+										<li lang="en" data-lang-token="work_exp_3s_01"></li>
+									</ul>
+								</div>
 							</div>
-							<div class="date-text">2000 - 2001</div>
 							<br>
-							<p style="margin:0; padding: 0" lang="en" data-lang-token="work_exp_ag_summary"></p>
-							<br>
-							<ul>
-								<li lang="en" data-lang-token="work_exp_ag_01"></li>
-								<li lang="en" data-lang-token="work_exp_ag_02"></li>
-								<li lang="en" data-lang-token="work_exp_ag_03"></li>
-							</ul>
-						</div>
-						<br>
-						<br>
 
-						<div class="work-entry">
-							<div class="title-entry">
-								<h2 lang="en">Programmer Analyst / Project Leader</h2>
-								<h3>Interóptima</h3>
+							<div class="row" style="margin-left:auto; margin-right:auto; max-width: 90%; text-align: left;">
+								<div class="title-entry">
+									<h2 lang="en">Software Engineer</h2>
+									<h3>SEI - Sistemas Exclusivos de Información</h3>
+								</div>
+								<div class="date-text">1999 - 2000</div>
+								<br>
+								<div id="work_exp_se_more" style="margin:0; padding: 0; display: none;">
+									<p style="margin:0; padding: 0" lang="en" data-lang-token="work_exp_se_summary"></p>
+									<br>
+									<ul>
+										<li lang="en" data-lang-token="work_exp_se_01"></li>
+									</ul>
+								</div>
 							</div>
-							<div class="date-text">2000</div>
 							<br>
-							<p style="margin:0; padding: 0" lang="en" data-lang-token="work_exp_io_summary"></p>
-							<br>
-							<ul>
-								<li lang="en" data-lang-token="work_exp_io_01"></li>
-							</ul>
-						</div>
-						<br>
-						<br>
 
-						<div class="work-entry">
-							<div class="title-entry">
-								<h2 lang="en">Software Engineer</h2>
-								<h3>3Soft</h3>
+							<div class="row" style="margin-left:auto; margin-right:auto; max-width: 90%; text-align: left;">
+								<div class="title-entry">
+									<h2 lang="en">Programmer Analyst</h2>
+									<h3>Bufete de Asesores en Sistemas</h3>
+								</div>
+								<div class="date-text">1998 - 1999</div>
+								<br>
+								<div id="work_exp_bc_more" style="margin:0; padding: 0; display: none;">
+									<p style="margin:0; padding: 0" lang="en" data-lang-token="work_exp_bc_summary"></p>
+									<br>
+									<ul>
+										<li lang="en" data-lang-token="work_exp_bc_01"></li>
+									</ul>
+								</div>
 							</div>
-							<div class="date-text">2000</div>
 							<br>
-							<p style="margin:0; padding: 0" lang="en" data-lang-token="work_exp_3s_summary"></p>
-							<br>
-							<ul>
-								<li lang="en" data-lang-token="work_exp_3s_01"></li>
-							</ul>
-						</div>
-						<br>
-						<br>
 
-						<div class="work-entry">
-							<div class="title-entry">
-								<h2 lang="en">Software Engineer</h2>
-								<h3>SEI - Sistemas Exclusivos de Información</h3>
+							<div class="row" style="margin-left:auto; margin-right:auto; max-width: 90%; text-align: left;">
+								<div class="title-entry">
+									<h2 lang="en">Software Engineer</h2>
+									<h3>IDS Consultores</h3>
+								</div>
+								<div class="date-text">1998</div>
+								<br>
+								<div id="work_exp_id_more" style="margin:0; padding: 0; display: none;">
+									<p style="margin:0; padding: 0" lang="en" data-lang-token="work_exp_id_summary"></p>
+									<br>
+									<ul>
+										<li lang="en" data-lang-token="work_exp_id_01"></li>
+									</ul>
+								</div>
 							</div>
-							<div class="date-text">1999 - 2000</div>
 							<br>
-							<p style="margin:0; padding: 0" lang="en" data-lang-token="work_exp_se_summary"></p>
-							<br>
-							<ul>
-								<li lang="en" data-lang-token="work_exp_se_01"></li>
-							</ul>
-						</div>
-						<br>
-						<br>
 
-						<div class="work-entry">
-							<div class="title-entry">
-								<h2 lang="en">Programmer Analyst</h2>
-								<h3>Bufete de Asesores en Sistemas</h3>
+							<div class="row" style="margin-left:auto; margin-right:auto; max-width: 90%; text-align: left;">
+								<div class="title-entry">
+									<h2 lang="en">Programmer Analyst</h2>
+									<h3>SinCo - Soluciones, Informática y Comunicaciones</h3>
+								</div>
+								<div class="date-text">1996 - 1998</div>
+								<br>
+								<div id="work_exp_si_more" style="margin:0; padding: 0; display: none;">
+									<p style="margin:0; padding: 0" lang="en" data-lang-token="work_exp_si_summary"></p>
+									<br>
+									<ul>
+										<li lang="en" data-lang-token="work_exp_si_01"></li>
+										<li lang="en" data-lang-token="work_exp_si_02"></li>
+										<li lang="en" data-lang-token="work_exp_si_03"></li>
+									</ul>
+								</div>
 							</div>
-							<div class="date-text">1998 - 1999</div>
-							<br>
-							<p style="margin:0; padding: 0" lang="en" data-lang-token="work_exp_bc_summary"></p>
-							<br>
-							<ul>
-								<li lang="en" data-lang-token="work_exp_bc_01"></li>
-							</ul>
 						</div>
 						<br>
-						<br>
-
-						<div class="work-entry">
-							<div class="title-entry">
-								<h2 lang="en">Software Engineer</h2>
-								<h3>IDS Consultores</h3>
+						<div class="row" style="margin-left:auto; margin-right:auto; max-width: 90%; text-align: left;">
+							<div id="work_exp_less_option" style="margin:0; padding: 0; display: none;">
+								<p><a style="font-size: 120%;" id="work_exp_less_click" lang="en"> Less details... </a>
+								</p>
 							</div>
-							<div class="date-text">1998</div>
-							<br>
-							<p style="margin:0; padding: 0" lang="en" data-lang-token="work_exp_id_summary"></p>
-							<br>
-							<ul>
-								<li lang="en" data-lang-token="work_exp_id_01"></li>
-							</ul>
-						</div>
-						<br>
-						<br>
-
-						<div class="work-entry">
-							<div class="title-entry">
-								<h2 lang="en">Programmer Analyst</h2>
-								<h3>SinCo - Soluciones, Informática y Comunicaciones</h3>
+							<div id="work_exp_more_option">
+								<p><a style="font-size: 120%;" id="work_exp_more_click" lang="en"> More details... </a>
+								</p>
 							</div>
-							<div class="date-text">1996 - 1998</div>
-							<br>
-							<p style="margin:0; padding: 0" lang="en" data-lang-token="work_exp_si_summary"></p>
-							<br>
-							<ul>
-								<li lang="en" data-lang-token="work_exp_si_01"></li>
-								<li lang="en" data-lang-token="work_exp_si_02"></li>
-								<li lang="en" data-lang-token="work_exp_si_03"></li>
-							</ul>
 						</div>
-						<br>
 					</div>
 				</div>
 
@@ -787,8 +839,9 @@
 							<p><b lang="en">The execution:</b></p>
 							<p lang="en" data-lang-token="sw_rex_ex_01"></p>
 							<div class="image_center_wrapper">
-								<a href="images/sw-rex-uml.png"><img src="images/sw-rex-uml-50.png" id="single_main_page_images"
-										alt="First draft for Rex UML Model" title="First draft for Rex UML Model"></a>
+								<a href="images/sw-rex-uml.png"><img src="images/sw-rex-uml-50.png"
+										id="single_main_page_images" alt="First draft for Rex UML Model"
+										title="First draft for Rex UML Model"></a>
 								<br /><strong lang="en" data-lang-token="sw_rex_ex_01_01"></strong>
 							</div>
 							<br>
@@ -796,7 +849,8 @@
 							<p lang="en" data-lang-token="sw_rex_ex_03"></p>
 							<div class="image_center_wrapper">
 								<img src="images/sw-rex-xml-excel.gif" id="single_main_page_images"
-									alt="Process for using XML data in Excel" title="Process for using XML data in Excel">
+									alt="Process for using XML data in Excel"
+									title="Process for using XML data in Excel">
 								<br /><strong lang="en" data-lang-token="sw_rex_ex_03_01"></strong>
 							</div>
 							<br>
@@ -824,8 +878,10 @@
 						</div>
 						<div id="sw_rex_tools" style="margin:0; padding: 0;">
 							<p><b lang="en">Utilized:</b></p>
-							<p>C#, XML, Oracle, SQL Server, Sybase, Adapt Framework, OrchardCMS, Apache Subversion (SVN),
-								Visual Studio Enterprise, Notepad++, TeamCity, Scrum, Atlassian Jira, Dia Diagram Editor</p>
+							<p>C#, XML, Oracle, SQL Server, Sybase, Adapt Framework, OrchardCMS, Apache Subversion
+								(SVN),
+								Visual Studio Enterprise, Notepad++, TeamCity, Scrum, Atlassian Jira, Dia Diagram Editor
+							</p>
 						</div>
 						<br>
 						<div id="sw_rex_less_option" style="margin:0; padding: 0; display: none;">
@@ -841,7 +897,8 @@
 					<div class="project-entry">
 						<div class="title-entry">
 							<h2 lang="en" data-lang-token="head_dpf"></h2>
-							<a target="_blank" href="https://github.com/jesuscadev/dpf">&nbsp;&nbsp;&nbsp;<img src=images/GitHub.png width=30px>&nbsp;&nbsp;https://github.com/jesuscadev/dpf</a>
+							<a target="_blank" href="https://github.com/jesuscadev/dpf">&nbsp;&nbsp;&nbsp;<img
+									src=images/GitHub.png width=30px>&nbsp;&nbsp;https://github.com/jesuscadev/dpf</a>
 						</div>
 						<br>
 						<div id="sw_dpf_overview" style="margin:0; padding: 0;">
@@ -1003,16 +1060,17 @@
 							<p lang="en" data-lang-token="sw_dpf_mt_17"></p>
 							<p lang="en" data-lang-token="sw_dpf_mt_18"></p>
 							<div class="image_center_wrapper">
-								<a href="images/thesis-cover.jpg"><img src="images/thesis-cover-small.jpg" id="single_main_page_images"
-										alt="The Thesis" title="The Thesis"></a>
+								<a href="images/thesis-cover.jpg"><img src="images/thesis-cover-small.jpg"
+										id="single_main_page_images" alt="The Thesis" title="The Thesis"></a>
 								<br /><strong lang="en" data-lang-token="sw_dpf_mt_18_01"></strong>
 							</div>
 							<br>
 							<p><b lang="en">The execution:</b></p>
 							<p lang="en" data-lang-token="sw_dpf_ex_01"></p>
 							<div class="image_center_wrapper">
-								<a href="images/sw-dpf-core.png"><img src="images/sw-dpf-core-small.png" id="single_main_page_images"
-										alt="DataProcessingFramework UML Model" title="DataProcessingFramework UML Model"></a>
+								<a href="images/sw-dpf-core.png"><img src="images/sw-dpf-core-small.png"
+										id="single_main_page_images" alt="DataProcessingFramework UML Model"
+										title="DataProcessingFramework UML Model"></a>
 								<br /><strong lang="en" data-lang-token="sw_dpf_ex_01_01"></strong>
 							</div>
 							<br>
@@ -1250,7 +1308,8 @@ public class DelimitedTextFilePublisher implements Publisher {
 						</div>
 						<div id="sw_dpf_tools" style="margin:0; padding: 0;">
 							<p><b lang="en">Utilized:</b></p>
-							<p>Java, XML, MySQL, Intellij IDEA, Visual Studio Code, Textastic, Git, GitHub, Gradle, OmniGraffle</p>
+							<p>Java, XML, MySQL, Intellij IDEA, Visual Studio Code, Textastic, Git, GitHub, Gradle,
+								OmniGraffle</p>
 						</div>
 						<br>
 						<div id="sw_dpf_less_option" style="margin:0; padding: 0; display: none;">
@@ -1279,7 +1338,8 @@ public class DelimitedTextFilePublisher implements Publisher {
 								<p lang="en" data-lang-token="sw_pay_mt_01"></p>
 								<p lang="en" data-lang-token="sw_pay_mt_02"></p>
 								<p lang="en" data-lang-token="sw_pay_mt_03"></p>
-								<img style="vertical-align:top; float:right;" src="images/sw-pay-bancomatico.jpg" width="50%">
+								<img style="vertical-align:top; float:right;" src="images/sw-pay-bancomatico.jpg"
+									width="50%">
 								<p lang="en" data-lang-token="sw_pay_mt_04"></p>
 								<p lang="en" data-lang-token="sw_pay_mt_05"></p>
 								<p lang="en" data-lang-token="sw_pay_mt_06"></p>
@@ -1291,27 +1351,32 @@ public class DelimitedTextFilePublisher implements Publisher {
 							<div id="da-slider" class="da-slider">
 								<div class="da-slide da-slide-current">
 									<h2>Cybernet Jade V1</h2>
-									<div class="da-img" id="sw-pay-jade"><img style="max-width: 65%; height: auto;width: auto;"
+									<div class="da-img" id="sw-pay-jade"><img
+											style="max-width: 65%; height: auto;width: auto;"
 											src="images/sw-pay-jade.jpg" alt="Jade"></div>
 								</div>
 								<div class="da-slide">
 									<h2>Cybernet JadeAIRE</h2>
-									<div class="da-img" id="sw-pay-jadeaire"><img style="max-width: 56%; height: auto;width: auto;"
+									<div class="da-img" id="sw-pay-jadeaire"><img
+											style="max-width: 56%; height: auto;width: auto;"
 											src="images/sw-pay-jadeaire.jpg" alt="Jade Aire"></div>
 								</div>
 								<div class="da-slide">
 									<h2>SAGEM Monetel EFT930</h2>
-									<div class="da-img" id="sw-pay-eft930"><img style="max-width: 100%; height: auto;width: auto;"
+									<div class="da-img" id="sw-pay-eft930"><img
+											style="max-width: 100%; height: auto;width: auto;"
 											src="images/sw-pay-eft930.jpg" alt="image01"></div>
 								</div>
 								<div class="da-slide">
 									<h2>SAGEM Monetel EFT930S</h2>
-									<div class="da-img" id="sw-pay-eft930s"><img style="max-width: 100%; height: auto;width: auto;"
+									<div class="da-img" id="sw-pay-eft930s"><img
+											style="max-width: 100%; height: auto;width: auto;"
 											src="images/sw-pay-eft930s.JPG" alt="image01"></div>
 								</div>
 								<div class="da-slide">
 									<h2>SAGEM Monetel EFTsmart</h2>
-									<div class="da-img" id="sw-pay-eftsmart"><img style="max-width: 100%; height: auto;width: auto;"
+									<div class="da-img" id="sw-pay-eftsmart"><img
+											style="max-width: 100%; height: auto;width: auto;"
 											src="images/sw-pay-eftsmart.JPG" alt="image01"></div>
 								</div>
 								<nav class="da-arrows">
@@ -1349,7 +1414,9 @@ public class DelimitedTextFilePublisher implements Publisher {
 					<div class="project-entry">
 						<div class="title-entry">
 							<h2 lang="en" data-lang-token="head_caj"></h2>
-							<a target="_blank" href="https://github.com/jesuscadev/cash-register">&nbsp;&nbsp;&nbsp;<img src=images/GitHub.png width=30px>&nbsp;&nbsp;https://github.com/jesuscadev/cash-register</a>
+							<a target="_blank" href="https://github.com/jesuscadev/cash-register">&nbsp;&nbsp;&nbsp;<img
+									src=images/GitHub.png
+									width=30px>&nbsp;&nbsp;https://github.com/jesuscadev/cash-register</a>
 						</div>
 						<br>
 						<div id="sw_caj_overview" style="margin:0; padding: 0;">
@@ -1361,7 +1428,8 @@ public class DelimitedTextFilePublisher implements Publisher {
 							<p><b lang="en">The motive:</b></p>
 							<div style='vertical-align:middle; display:inline;'>
 								<p lang="en" data-lang-token="sw_caj_mt_01"></p>
-								<a href="images/sw-caj-ncr7445.png"><img style="vertical-align:top; float:right;" src="images/sw-caj-ncr7445.png" width="50%"></a>
+								<a href="images/sw-caj-ncr7445.png"><img style="vertical-align:top; float:right;"
+										src="images/sw-caj-ncr7445.png" width="50%"></a>
 								<p lang="en" data-lang-token="sw_caj_mt_02"></p>
 								<p lang="en" data-lang-token="sw_caj_mt_03"></p>
 								<p lang="en" data-lang-token="sw_caj_mt_04"></p>
@@ -1375,15 +1443,17 @@ public class DelimitedTextFilePublisher implements Publisher {
 							<p><b lang="en">The execution:</b></p>
 							<p lang="en" data-lang-token="sw_caj_ex_01"></p>
 							<div class="image_center_wrapper">
-								<a href="images/sw-caj-system.png"><img src="images/sw-caj-system.png" id="single_main_page_images"
-										alt="Point of Sale System" title="Point of Sale System" width="50%"></a>
+								<a href="images/sw-caj-system.png"><img src="images/sw-caj-system.png"
+										id="single_main_page_images" alt="Point of Sale System"
+										title="Point of Sale System" width="50%"></a>
 								<br /><strong lang="en">Cash Register / Point of Sale System</strong>
 							</div>
 							<br>
 							<p lang="en" data-lang-token="sw_caj_ex_02"></p>
 							<div class="image_center_wrapper">
-								<a href="images/sw-caj-printer.png"><img src="images/sw-caj-printer.png" id="single_main_page_images"
-										alt="Generating code matrices for printing" title="Generating code matrices for printing" width="30%"></a>
+								<a href="images/sw-caj-printer.png"><img src="images/sw-caj-printer.png"
+										id="single_main_page_images" alt="Generating code matrices for printing"
+										title="Generating code matrices for printing" width="30%"></a>
 								<br /><strong lang="en">Generating code matrices for printing</strong>
 							</div>
 							<br>
@@ -1391,7 +1461,8 @@ public class DelimitedTextFilePublisher implements Publisher {
 							<p lang="en" data-lang-token="sw_caj_ex_04"></p>
 							<div class="row">
 								<div class="column2">
-									<a href="images/sw-caj-er.png"><img src="images/sw-caj-er.png" alt="Entity Relationship" width="69%"></a>
+									<a href="images/sw-caj-er.png"><img src="images/sw-caj-er.png"
+											alt="Entity Relationship" width="69%"></a>
 									<br /><strong lang="en" data-lang-token="sw_caj_ex_04_01"></strong>
 								</div>
 								<div class="column2">
@@ -1404,68 +1475,121 @@ public class DelimitedTextFilePublisher implements Publisher {
 							<p lang="en" data-lang-token="sw_caj_ex_05"></p>
 							<div class="row">
 								<div class="column3">
-									<img src="images/sw-caj-plu4.jpg" id="single_main_page_images" alt="PLU 4" title="PLU 4" width="100%">
-									<br /><p lang="en" data-lang-token="sw_caj_ex_05_01" width="100%"></p>
+									<img src="images/sw-caj-plu4.jpg" id="single_main_page_images" alt="PLU 4"
+										title="PLU 4" width="100%">
+									<br />
+									<p lang="en" data-lang-token="sw_caj_ex_05_01" width="100%"></p>
 								</div>
 								<div class="column3">
-									<img src="images/sw-caj-plu5.jpg" id="single_main_page_images" alt="PLU 5" title="PLU 5" width="100%">
-									<br /><p lang="en" data-lang-token="sw_caj_ex_05_02" width="100%"></p>
+									<img src="images/sw-caj-plu5.jpg" id="single_main_page_images" alt="PLU 5"
+										title="PLU 5" width="100%">
+									<br />
+									<p lang="en" data-lang-token="sw_caj_ex_05_02" width="100%"></p>
 								</div>
 								<div class="column3">
-									<img src="images/sw-caj-plu.png" id="single_main_page_images" alt="PLU" title="PLU" width="100%">
-									<br /><p lang="en" data-lang-token="sw_caj_ex_05_03" width="100%"></p>
+									<img src="images/sw-caj-plu.png" id="single_main_page_images" alt="PLU" title="PLU"
+										width="100%">
+									<br />
+									<p lang="en" data-lang-token="sw_caj_ex_05_03" width="100%"></p>
 								</div>
 							</div>
 							<br>
 							<p lang="en" data-lang-token="sw_caj_ex_05_04"></p>
 							<table>
 								<tr>
-									<th><p lang="en">Entity</p></th>
-									<th><p lang="en">Functionality</p></th>
+									<th>
+										<p lang="en">Entity</p>
+									</th>
+									<th>
+										<p lang="en">Functionality</p>
+									</th>
 								</tr>
 								<tr>
-									<th><p lang="en" data-lang-token="sw_caj_ex_06"></p></th>
-									<td><p lang="en" data-lang-token="sw_caj_ex_06_01"></p></td>
+									<th>
+										<p lang="en" data-lang-token="sw_caj_ex_06"></p>
+									</th>
+									<td>
+										<p lang="en" data-lang-token="sw_caj_ex_06_01"></p>
+									</td>
 								</tr>
 								<tr>
-									<th><p lang="en" data-lang-token="sw_caj_ex_07"></p></th>
-									<td><p lang="en" data-lang-token="sw_caj_ex_07_01"></p></td>
+									<th>
+										<p lang="en" data-lang-token="sw_caj_ex_07"></p>
+									</th>
+									<td>
+										<p lang="en" data-lang-token="sw_caj_ex_07_01"></p>
+									</td>
 								</tr>
 								<tr>
-									<th><p  lang="en" data-lang-token="sw_caj_ex_08"></p></th>
-									<td><p lang="en" data-lang-token="sw_caj_ex_08_01"></p></td>
+									<th>
+										<p lang="en" data-lang-token="sw_caj_ex_08"></p>
+									</th>
+									<td>
+										<p lang="en" data-lang-token="sw_caj_ex_08_01"></p>
+									</td>
 								</tr>
 								<tr>
-									<th><p lang="en" data-lang-token="sw_caj_ex_09"></p></th>
-									<td><p lang="en" data-lang-token="sw_caj_ex_09_01"></p></td>
+									<th>
+										<p lang="en" data-lang-token="sw_caj_ex_09"></p>
+									</th>
+									<td>
+										<p lang="en" data-lang-token="sw_caj_ex_09_01"></p>
+									</td>
 								</tr>
 								<tr>
-									<th><p lang="en" data-lang-token="sw_caj_ex_10"></p></th>
-									<td><p lang="en" data-lang-token="sw_caj_ex_10_01"></p></td>
+									<th>
+										<p lang="en" data-lang-token="sw_caj_ex_10"></p>
+									</th>
+									<td>
+										<p lang="en" data-lang-token="sw_caj_ex_10_01"></p>
+									</td>
 								</tr>
 								<tr>
-									<th><p lang="en" data-lang-token="sw_caj_ex_11"></p></th>
-									<td><p lang="en" data-lang-token="sw_caj_ex_11_01"></p></td>
+									<th>
+										<p lang="en" data-lang-token="sw_caj_ex_11"></p>
+									</th>
+									<td>
+										<p lang="en" data-lang-token="sw_caj_ex_11_01"></p>
+									</td>
 								</tr>
 								<tr>
-									<th><p lang="en" data-lang-token="sw_caj_ex_12"></p></th>
-									<td><p lang="en" data-lang-token="sw_caj_ex_12_01"></p></td>
+									<th>
+										<p lang="en" data-lang-token="sw_caj_ex_12"></p>
+									</th>
+									<td>
+										<p lang="en" data-lang-token="sw_caj_ex_12_01"></p>
+									</td>
 								</tr>
 								<tr>
-									<th><p lang="en" data-lang-token="sw_caj_ex_13"></p></th>
-									<td><p lang="en" data-lang-token="sw_caj_ex_13_01"></p></td>
+									<th>
+										<p lang="en" data-lang-token="sw_caj_ex_13"></p>
+									</th>
+									<td>
+										<p lang="en" data-lang-token="sw_caj_ex_13_01"></p>
+									</td>
 								</tr>
 								<tr>
-									<th><p lang="en" data-lang-token="sw_caj_ex_14"></p></th>
-									<td><p lang="en" data-lang-token="sw_caj_ex_14_01"></p></td>
+									<th>
+										<p lang="en" data-lang-token="sw_caj_ex_14"></p>
+									</th>
+									<td>
+										<p lang="en" data-lang-token="sw_caj_ex_14_01"></p>
+									</td>
 								</tr>
 								<tr>
-									<th><p lang="en" data-lang-token="sw_caj_ex_15"></p></th>
-									<td><p lang="en" data-lang-token="sw_caj_ex_15_01"></p></td>
+									<th>
+										<p lang="en" data-lang-token="sw_caj_ex_15"></p>
+									</th>
+									<td>
+										<p lang="en" data-lang-token="sw_caj_ex_15_01"></p>
+									</td>
 								</tr>
 								<tr>
-									<th><p lang="en" data-lang-token="sw_caj_ex_16"></p></th>
-									<td><p lang="en" data-lang-token="sw_caj_ex_16_01"></p>
+									<th>
+										<p lang="en" data-lang-token="sw_caj_ex_16"></p>
+									</th>
+									<td>
+										<p lang="en" data-lang-token="sw_caj_ex_16_01"></p>
 										<ul>
 											<li lang="en" data-lang-token="sw_caj_ex_16_01_01"></li>
 											<li lang="en" data-lang-token="sw_caj_ex_16_01_02"></li>
@@ -1481,11 +1605,17 @@ public class DelimitedTextFilePublisher implements Publisher {
 									</td>
 								</tr>
 								<tr>
-									<th><p lang="en" data-lang-token="sw_caj_ex_17"></p></th>
-									<td><p lang="en" data-lang-token="sw_caj_ex_17_01"></p></td>
+									<th>
+										<p lang="en" data-lang-token="sw_caj_ex_17"></p>
+									</th>
+									<td>
+										<p lang="en" data-lang-token="sw_caj_ex_17_01"></p>
+									</td>
 								</tr>
 								<tr>
-									<th><p lang="en" data-lang-token="sw_caj_ex_18"></p></th>
+									<th>
+										<p lang="en" data-lang-token="sw_caj_ex_18"></p>
+									</th>
 									<td>
 										<p lang="en" data-lang-token="sw_caj_ex_18_01"></p>
 										<ul>
@@ -1496,8 +1626,12 @@ public class DelimitedTextFilePublisher implements Publisher {
 									</td>
 								</tr>
 								<tr>
-									<th><p lang="en" data-lang-token="sw_caj_ex_19"></p></th>
-									<td><p lang="en" data-lang-token="sw_caj_ex_19_01"></p></td>
+									<th>
+										<p lang="en" data-lang-token="sw_caj_ex_19"></p>
+									</th>
+									<td>
+										<p lang="en" data-lang-token="sw_caj_ex_19_01"></p>
+									</td>
 								</tr>
 							</table>
 						</div>
@@ -1536,9 +1670,8 @@ public class DelimitedTextFilePublisher implements Publisher {
 								<p lang="en" data-lang-token="sw_mex_mt_03"></p>
 							</div>
 							<div class="image_center_wrapper">
-								<img src="images/sw-mex-map1_4.gif"
-										id="single_main_page_images" alt="sw-mex-map"
-										title="sw-mex-map">
+								<img src="images/sw-mex-map1_4.gif" id="single_main_page_images" alt="sw-mex-map"
+									title="sw-mex-map">
 							</div>
 							<br>
 							<p><b lang="en">The execution:</b></p>
@@ -1546,29 +1679,28 @@ public class DelimitedTextFilePublisher implements Publisher {
 							<p lang="en" data-lang-token="sw_mex_ex_01_01"></p>
 							<div class="image_center_wrapper">
 								<a href="images/sw-mex-frog-01.jpg"><img src="images/sw-mex-frog-01.jpg"
-										id="single_main_page_images" alt="sw-mex-frog-01"
-										title="sw-mex-frog-01" width="50%"></a>
+										id="single_main_page_images" alt="sw-mex-frog-01" title="sw-mex-frog-01"
+										width="50%"></a>
 							</div>
 							<br>
 							<p lang="en" data-lang-token="sw_mex_ex_02"></p>
 							<div class="image_center_wrapper">
 								<a href="images/sw-mex-frog-02.jpg"><img src="images/sw-mex-frog-02.jpg"
-										id="single_main_page_images" alt="sw-mex-frog-02"
-										title="sw-mex-frog-02" width="60%"></a>
+										id="single_main_page_images" alt="sw-mex-frog-02" title="sw-mex-frog-02"
+										width="60%"></a>
 							</div>
 							<br>
 							<p lang="en" data-lang-token="sw_mex_ex_03"></p>
 							<div class="image_center_wrapper">
 								<a href="images/sw-mex-frog-03.jpg"><img src="images/sw-mex-frog-03.jpg"
-										id="single_main_page_images" alt="sw-mex-frog-03"
-										title="sw-mex-frog-03" width="100%"></a>
+										id="single_main_page_images" alt="sw-mex-frog-03" title="sw-mex-frog-03"
+										width="100%"></a>
 							</div>
 							<br>
 							<p lang="en" data-lang-token="sw_mex_ex_04"></p>
 							<div class="image_center_wrapper">
 								<a href="images/sw-mex-main-map.jpg"><img src="images/sw-mex-main-map.jpg"
-										id="single_main_page_images" alt="sw-mex-main-map"
-										title="sw-mex-main-map"></a>
+										id="single_main_page_images" alt="sw-mex-main-map" title="sw-mex-main-map"></a>
 							</div>
 							<br>
 							<p lang="en" data-lang-token="sw_mex_ex_05"></p>
@@ -1613,16 +1745,15 @@ public class DelimitedTextFilePublisher implements Publisher {
 							<br>
 							<p lang="en" data-lang-token="sw_mex_ex_06"></p>
 							<div class="image_center_wrapper">
-								<a href="images/sw-mex-notes-00.jpg"><img src="images/sw-mex-notes-00.jpg" id="single_main_page_images"
-										alt="Notes" title="Notes" width="100%"></a>
+								<a href="images/sw-mex-notes-00.jpg"><img src="images/sw-mex-notes-00.jpg"
+										id="single_main_page_images" alt="Notes" title="Notes" width="100%"></a>
 							</div>
 							<br>
 							<p lang="en" data-lang-token="sw_mex_ex_07"></p>
 							<p lang="en" data-lang-token="sw_mex_ex_07_01"></p>
 							<div class="image_center_wrapper">
 								<a href="images/sw-mex-collage.jpg"><img src="images/sw-mex-collage.jpg"
-									id="single_main_page_images" alt="sw-mex-collage"
-									title="sw-mex-collage"></a>
+										id="single_main_page_images" alt="sw-mex-collage" title="sw-mex-collage"></a>
 							</div>
 							<br>
 							<p lang="en" data-lang-token="sw_mex_ex_08"></p>
@@ -1647,13 +1778,13 @@ public class DelimitedTextFilePublisher implements Publisher {
 							<br>
 							<p lang="en" data-lang-token="sw_mex_ex_09"></p>
 							<div class="image_center_wrapper">
-								<a href="images/sw-mex-notes-02.jpg"><img src="images/sw-mex-notes-02.jpg" id="single_main_page_images"
-										alt="Notes" title="Notes" width="100%"></a>
+								<a href="images/sw-mex-notes-02.jpg"><img src="images/sw-mex-notes-02.jpg"
+										id="single_main_page_images" alt="Notes" title="Notes" width="100%"></a>
 							</div>
 							<br>
 							<div class="image_center_wrapper">
-								<a href="images/sw-mex-notes-01.jpg"><img src="images/sw-mex-notes-01.jpg" id="single_main_page_images"
-										alt="Notes" title="Notes" width="50%"></a>
+								<a href="images/sw-mex-notes-01.jpg"><img src="images/sw-mex-notes-01.jpg"
+										id="single_main_page_images" alt="Notes" title="Notes" width="50%"></a>
 							</div>
 							<br>
 						</div>
@@ -1675,7 +1806,9 @@ public class DelimitedTextFilePublisher implements Publisher {
 					<div class="project-entry">
 						<div class="title-entry">
 							<h2 lang="en" data-lang-token="head_par"></h2>
-							<a target="_blank" href="https://github.com/jesuscadev/parachute-app">&nbsp;&nbsp;&nbsp;<img src=images/GitHub.png width=30px>&nbsp;&nbsp;https://github.com/jesuscadev/parachute-app</a>
+							<a target="_blank" href="https://github.com/jesuscadev/parachute-app">&nbsp;&nbsp;&nbsp;<img
+									src=images/GitHub.png
+									width=30px>&nbsp;&nbsp;https://github.com/jesuscadev/parachute-app</a>
 						</div>
 						<br>
 						<div id="sw_par_overview" style="margin:0; padding: 0;">
@@ -1689,7 +1822,8 @@ public class DelimitedTextFilePublisher implements Publisher {
 							<br />
 							<p><b lang="en">The execution:</b></p>
 							<!--p lang="en" data-lang-token="sw_par_ex_01"></p-->
-							<p><a href="images/sw-par-screen-01.jpg"><img lang="en" data-lang-token="sw_par_mt_01" src="images/sw-par-screen-01.jpg" alt="Parachute" width="50%"></a></p>
+							<p><a href="images/sw-par-screen-01.jpg"><img lang="en" data-lang-token="sw_par_mt_01"
+										src="images/sw-par-screen-01.jpg" alt="Parachute" width="50%"></a></p>
 							<br>
 						</div>
 						<div id="sw_par_tools" style="margin:0; padding: 0;">
@@ -1710,7 +1844,10 @@ public class DelimitedTextFilePublisher implements Publisher {
 					<div class="project-entry">
 						<div class="title-entry">
 							<h2 lang="en" data-lang-token="head_rol"></h2>
-							<a target="_blank" href="https://github.com/jesuscadev/roller-coaster-app">&nbsp;&nbsp;&nbsp;<img src=images/GitHub.png width=30px>&nbsp;&nbsp;https://github.com/jesuscadev/roller-coaster-app</a>
+							<a target="_blank"
+								href="https://github.com/jesuscadev/roller-coaster-app">&nbsp;&nbsp;&nbsp;<img
+									src=images/GitHub.png
+									width=30px>&nbsp;&nbsp;https://github.com/jesuscadev/roller-coaster-app</a>
 						</div>
 						<br>
 						<div id="sw_rol_overview" style="margin:0; padding: 0;">
@@ -1727,7 +1864,8 @@ public class DelimitedTextFilePublisher implements Publisher {
 							<p><img src="images/sw-building.png"></p>
 							<p><b lang="en">The execution:</b></p>
 							<!--p lang="en" data-lang-token="sw_rol_ex_01"></p-->
-							<p><a href="images/sw-rol-screen-01.jpg"><img lang="en" data-lang-token="sw_rol_mt_01" src="images/sw-rol-screen-01.jpg" alt="Parachute" width="50%"></a></p>
+							<p><a href="images/sw-rol-screen-01.jpg"><img lang="en" data-lang-token="sw_rol_mt_01"
+										src="images/sw-rol-screen-01.jpg" alt="Parachute" width="50%"></a></p>
 							<br>
 						</div>
 						<div id="sw_rol_tools" style="margin:0; padding: 0;">
@@ -1748,7 +1886,9 @@ public class DelimitedTextFilePublisher implements Publisher {
 					<div class="project-entry">
 						<div class="title-entry">
 							<h2 lang="en" data-lang-token="head_jkd"></h2>
-							<a target="_blank" href="https://github.com/jesuscadev/jesuscadev">&nbsp;&nbsp;&nbsp;<img src=images/GitHub.png width=30px>&nbsp;&nbsp;https://github.com/jesuscadev/jesuscadev</a>
+							<a target="_blank" href="https://github.com/jesuscadev/jesuscadev">&nbsp;&nbsp;&nbsp;<img
+									src=images/GitHub.png
+									width=30px>&nbsp;&nbsp;https://github.com/jesuscadev/jesuscadev</a>
 						</div>
 						<br>
 						<div id="sw_jkd_overview" style="margin:0; padding: 0;">
@@ -1768,7 +1908,9 @@ public class DelimitedTextFilePublisher implements Publisher {
 						</div>
 						<div id="sw_jkd_tools" style="margin:0; padding: 0;">
 							<p><b lang="en">Utilized:</b></p>
-							<p>JavaScript, HTML/CSS, Bootstrap, Highlight.js, Visual Studio Code, Textastic, GitHub, Working Copy, Hostinger, OmniGraffle, Keynote, Pixelmator, Paintbrush for Mac, GIF Toaster, Craft, Tot</p>
+							<p>JavaScript, HTML/CSS, Bootstrap, Highlight.js, Visual Studio Code, Textastic, GitHub,
+								Working Copy, Hostinger, OmniGraffle, Keynote, Pixelmator, Paintbrush for Mac, GIF
+								Toaster, Craft, Tot</p>
 						</div>
 						<br>
 						<div id="sw_jkd_less_option" style="margin:0; padding: 0; display: none;">
@@ -1781,67 +1923,85 @@ public class DelimitedTextFilePublisher implements Publisher {
 					<br>
 
 					<!-- theapartment div-->
-					<div class="row" id="theapartment_header">
+					<div class="project-entry" id="theapartment_header">
 						<div id="gray">
 							<br>
-							<h1 class="text-center" style="color:#2471A3" lang="en" data-lang-token="head_theapartment"></h1>
+							<h1 class="text-center" style="color:#2471A3" lang="en" data-lang-token="head_theapartment">
+							</h1>
 							<br>
 							<div class="image_center_wrapper">
 								<img src="images/ta-poster.jpg" id="single_main_page_images" alt="The Apartment poster"
 									title="The Apartment poster">
 							</div>
 							<br>
-							<p lang="en" data-lang-token="ta_01"></p>
-							<br>
-							<div class="image_center_wrapper">
-								<img src="images/ta-desks.jpg" id="single_main_page_images" alt="Desks" title="Desks">
+							<div id="ta_more" style="margin:0; padding: 0; display: none;">
+								<p lang="en" data-lang-token="ta_01"></p>
+								<br>
+								<div class="image_center_wrapper">
+									<img src="images/ta-desks.jpg" id="single_main_page_images" alt="Desks"
+										title="Desks">
+								</div>
+								<br>
+								<p lang="en" data-lang-token="ta_02"></p>
+								<br>
+								<div class="image_center_wrapper">
+									<img src="images/ta-baxter.jpg" id="single_main_page_images" alt="Baxter"
+										title="Baxter">
+								</div>
+								<br>
+								<p lang="en" data-lang-token="ta_03"></p>
+								<br>
+								<div class="image_center_wrapper">
+									<img src="images/ta-excel-01.gif" id="single_main_page_images" alt="Cell"
+										title="Cell">
+								</div>
+								<br>
+								<p lang="en" data-lang-token="ta_04"></p>
+								<br>
+								<div class="image_center_wrapper">
+									<img src="images/ta-excel-02.gif" id="single_main_page_images" alt="Worksheet"
+										title="Worksheet">
+								</div>
+								<br>
+								<p lang="en" data-lang-token="ta_05"></p>
+								<br>
+								<div class="image_center_wrapper">
+									<img src="images/ta-excel-03.gif" id="single_main_page_images" alt="Excel file"
+										title="Excel file">
+								</div>
+								<br>
+								<p lang="en" data-lang-token="ta_06"></p>
+								<br>
+								<div class="image_center_wrapper">
+									<img src="images/ta-excel-04.gif" id="single_main_page_images" alt="CC Baxter"
+										title="CC Baxter">
+								</div>
+								<br>
+								<p lang="en" data-lang-token="ta_07"></p>
+								<br>
+								<div class="image_center_wrapper">
+									<img src="images/ta-excel-05.gif" id="single_main_page_images" alt="Romance"
+										title="Romance">
+								</div>
+								<br>
+								<p lang="en" data-lang-token="ta_08"></p>
+								<br>
+								<div class="image_center_wrapper">
+									<img src="images/ta-excel-06.gif" id="single_main_page_images" alt="Disappeared"
+										title="Disappeared">
+								</div>
+								<br>
+								<p lang="en" data-lang-token="ta_09"></p>
+								<br>
+								<p lang="en" data-lang-token="ta_10"></p>
 							</div>
 							<br>
-							<p lang="en" data-lang-token="ta_02"></p>
-							<br>
-							<div class="image_center_wrapper">
-								<img src="images/ta-baxter.jpg" id="single_main_page_images" alt="Baxter" title="Baxter">
+							<div id="ta_less_option" style="margin:0; padding: 0; display: none;">
+								<p><a style="font-size: 120%;" id="ta_less_click" lang="en"> Less details... </a></p>
 							</div>
-							<br>
-							<p lang="en" data-lang-token="ta_03"></p>
-							<br>
-							<div class="image_center_wrapper">
-								<img src="images/ta-excel-01.gif" id="single_main_page_images" alt="Cell" title="Cell">
+							<div id="ta_more_option">
+								<p><a style="font-size: 120%;" id="ta_more_click" lang="en"> More details... </a></p>
 							</div>
-							<br>
-							<p lang="en" data-lang-token="ta_04"></p>
-							<br>
-							<div class="image_center_wrapper">
-								<img src="images/ta-excel-02.gif" id="single_main_page_images" alt="Worksheet" title="Worksheet">
-							</div>
-							<br>
-							<p lang="en" data-lang-token="ta_05"></p>
-							<br>
-							<div class="image_center_wrapper">
-								<img src="images/ta-excel-03.gif" id="single_main_page_images" alt="Excel file" title="Excel file">
-							</div>
-							<br>
-							<p lang="en" data-lang-token="ta_06"></p>
-							<br>
-							<div class="image_center_wrapper">
-								<img src="images/ta-excel-04.gif" id="single_main_page_images" alt="CC Baxter" title="CC Baxter">
-							</div>
-							<br>
-							<p lang="en" data-lang-token="ta_07"></p>
-							<br>
-							<div class="image_center_wrapper">
-								<img src="images/ta-excel-05.gif" id="single_main_page_images" alt="Romance" title="Romance">
-							</div>
-							<br>
-							<p lang="en" data-lang-token="ta_08"></p>
-							<br>
-							<div class="image_center_wrapper">
-								<img src="images/ta-excel-06.gif" id="single_main_page_images" alt="Disappeared" title="Disappeared">
-							</div>
-							<br>
-							<p lang="en" data-lang-token="ta_09"></p>
-							<br>
-							<p lang="en" data-lang-token="ta_10"></p>
 						</div>
 					</div>
 
@@ -1881,6 +2041,66 @@ public class DelimitedTextFilePublisher implements Publisher {
 
 					$("body, html").animate({
 						scrollTop: $($("#profile_id").attr('href')).offset().top - $(".navbar-header").height()
+					}, 600);
+				})
+
+				// Education section
+				$("#edu_more_click").on('click', function (e) {
+					$("#edu_more_option").hide();
+					$("#edu_master_more").show();
+					$("#edu_bachelor_more").show();
+					$("#edu_less_option").show();
+				})
+				$("#edu_less_click").on('click', function (e) {
+					$("#edu_master_more").hide();
+					$("#edu_bachelor_more").hide();
+					$("#edu_less_option").hide();
+					$("#edu_more_option").show();
+
+					$("body, html").animate({
+						scrollTop: $($("#education_id").attr('href')).offset().top - $(".navbar-header").height()
+					}, 600);
+				})
+
+				// Work Experience section
+				$("#work_exp_more_click").on('click', function (e) {
+					$("#work_exp_more_option").hide();
+					$("#work_exp_old_more").show();
+					$("#work_exp_sl_more").show();
+					$("#work_exp_pd_more").show();
+					$("#work_exp_cs_more").show();
+					$("#work_exp_pp_more").show();
+					$("#work_exp_ba_more").show();
+					$("#work_exp_pt_more").show();
+					$("#work_exp_ag_more").show();
+					$("#work_exp_io_more").show();
+					$("#work_exp_3s_more").show();
+					$("#work_exp_se_more").show();
+					$("#work_exp_bc_more").show();
+					$("#work_exp_id_more").show();
+					$("#work_exp_si_more").show();
+					$("#work_exp_less_option").show();
+				})
+				$("#work_exp_less_click").on('click', function (e) {
+					$("#work_exp_sl_more").hide();
+					$("#work_exp_pd_more").hide();
+					$("#work_exp_cs_more").hide();
+					$("#work_exp_pp_more").hide();
+					$("#work_exp_ba_more").hide();
+					$("#work_exp_pt_more").hide();
+					$("#work_exp_ag_more").hide();
+					$("#work_exp_io_more").hide();
+					$("#work_exp_3s_more").hide();
+					$("#work_exp_se_more").hide();
+					$("#work_exp_bc_more").hide();
+					$("#work_exp_id_more").hide();
+					$("#work_exp_si_more").hide();
+					$("#work_exp_old_more").hide();
+					$("#work_exp_less_option").hide();
+					$("#work_exp_more_option").show();
+
+					$("body, html").animate({
+						scrollTop: $($("#work_exp_id").attr('href')).offset().top - $(".navbar-header").height()
 					}, 600);
 				})
 
@@ -2009,6 +2229,22 @@ public class DelimitedTextFilePublisher implements Publisher {
 
 					$("body, html").animate({
 						scrollTop: $($("#sw_jkd_id").attr('href')).offset().top - $(".navbar-header").height()
+					}, 600);
+				})
+
+				// The Apartment
+				$("#ta_more_click").on('click', function (e) {
+					$("#ta_more_option").hide();
+					$("#ta_more").show();
+					$("#ta_less_option").show();
+				})
+				$("#ta_less_click").on('click', function (e) {
+					$("#ta_more").hide();
+					$("#ta_less_option").hide();
+					$("#ta_more_option").show();
+
+					$("body, html").animate({
+						scrollTop: $($("#ta_id").attr('href')).offset().top - $(".navbar-header").height()
 					}, 600);
 				})
 
@@ -2225,4 +2461,5 @@ public class DelimitedTextFilePublisher implements Publisher {
 
 		</script>
 </body>
+
 </html>
