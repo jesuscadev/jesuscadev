@@ -136,7 +136,8 @@ tr:nth-child(even) {
 
 .subtitle-entry {
     /*color: #2471A3;*/
-    color: #707B7C;
+    /*color: #707B7C;*/
+    color:#4d4d4d";
     text-decoration: none;
     margin-top: 10px;
     display: block;
