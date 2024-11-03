@@ -55,7 +55,7 @@
 		"edu_degree": "Degree Exam <br />Certificate",
 		"edu_certificate": "Certificate",
 		"edu_bachelor": "<br>Thesis: <em>&ldquo;Methodology for Project Management and Systems Development&rdquo;</em>.<br><br>",
-		"work_exp_sl_summary": "Technical Leader and Senior Software Engineer, developing SynQ and AutoStore software in Java and Jakarta EE for warehouse automation.",
+		"work_exp_sl_summary": "Technical Leader and Senior Software Engineer, warehouse automation software development in Java and Jakarta EE.",
 		"work_exp_sl_01": "Developed the SynQ WMS (<em>Warehouse Management System</em>) Software in Java and Jakarta EE &#8226; WebLogic &#8226; SQL Server for the <em>&ldquo;Starfighter&rdquo;</em> DHL project in Atlanta, Georgia. I installed from scratch a server with the AutoStore software, and integrated with the SynQ software the <em>&ldquo;goods-to-person&rdquo;</em> solution based on a layout using cubic racks, bins and robots.",
 		"work_exp_sl_02": "Developed SynQ Software Automatic Storage and Retrieval System (ASRS) software in Java and Jakarta EE &#8226; WebLogic &#8226; Oracle for Grupo Familia's <em>&ldquo;Orange&rdquo;</em> project in Medellín, Colombia. Implemented the integration of SynQ with Honeywell’s VoCollect voice command devices with the <em>&ldquo;manual picking&rdquo;</em> solution in the Mezzanines area.",
 		"work_exp_sl_03": "Currently developing SynQ Miniload Storage System (MSS) software in Java and Jakarta EE &#8226; WildFly &#8226; SQL Server for Takeda Pharmaceuticals' <em>&ldquo;Tornado&rdquo;</em> project in Minneapolis, Minnesota. Implementing SynQ integration with Omron's Autonomous Mobile Robots (AMR) for moving containers to and from hazardous areas.",
